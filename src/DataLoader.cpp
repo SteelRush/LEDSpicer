@@ -284,6 +284,10 @@ Profile* DataLoader::processProfile(const string& name) {
 		end
 	);
 
+#ifdef DEVELOP
+	cout << "Found Profile: " << name << endl;
+#endif
+
 	// Check for animations.
 	element = profile.getRoot()->FirstChildElement(NODE_ANIMATIONS);
 	if (element) {

@@ -4,21 +4,7 @@
 	type="Profile"
 	backgroundColor="Black"
 >
-	<startTransition
-		type="Pulse"
-		color="White"
-		speed="Fast"
-		filter="Combine"
-		direction="ForwardBouncing"
-	/>
-	<endTransition
-		type="Pulse"
-		color="White"
-		speed="Fast"
-		filter="Combine"
-		direction="ForwardBouncing"
-	/>
 	<animations>
-		<animation name="example" />
+		<animation name="groovy" />
 	</animations>
 </LEDSpicer>
